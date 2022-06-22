@@ -1,0 +1,2 @@
+docker build -t flask_img .
+docker run -d -p 5000:5000 --name flask_container --rm --network flask_net flask_img
